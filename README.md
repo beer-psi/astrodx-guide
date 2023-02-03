@@ -72,7 +72,7 @@ FESTiVAL charts are only supported since `v2.0.0.beta.pre.83`, so you need to be
 Some charters also support older versions of AstroDX/MaipadDX by providing a "fakefes" chart (for example, slides
 chained together using tapless slides) and naming it `maidata_dx.txt`. Due to a bug in AstroDX, `maidata_dx.txt`
 will be prioritized over `maidata.txt`, effectively playing the fakefes version instead of the original. Check the
-song folder for `maidata_dx.txt` and delete it if it exists.s
+song folder for `maidata_dx.txt` and delete it if it exists.
 
 ### Can I delete pv.mp4?
 Yes.
