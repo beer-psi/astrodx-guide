@@ -30,7 +30,7 @@ Due to AstroDX's popularity, the TestFlight is very often full. However, inactiv
 are periodically cleared, so regularly watch out for open spots!
 
 ### Android
-Download the latest APK from the [AstroDX releases page](https://github.com/2394425147/maipaddx/releases).
+Download the latest APK from the [AstroDX releases page](https://github.com/2394425147/maipaddx/releases) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/2394425147/maipaddx?include_prereleases).
 
 ## Levels
 ### Where do I download levels?
