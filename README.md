@@ -6,6 +6,8 @@ if your question isn't listed.
 - [Installation](#installation)
   - [iOS](#ios)
   - [Android](#android)
+- [Migration](#migration)
+  - [Transferring from AstroDX 1.1/1.9 to AstroDX 2.0](#transferring-from-astrodx-1119-to-astrodx-20)
 - [Levels](#levels)
   - [Where do I download levels?](#where-do-i-download-levels)
   - [How do I import levels?](#how-do-i-import-levels)
@@ -31,6 +33,14 @@ are periodically cleared, so regularly watch out for open spots!
 
 ### Android
 Download the latest APK from the [AstroDX releases page](https://github.com/2394425147/maipaddx/releases) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/2394425147/maipaddx?include_prereleases).
+
+## Migration
+### Transferring from AstroDX 1.1/1.9 to AstroDX 2.0
+1. Backup your `maipaddx`/`com.Reflektone.MaipadDX` folder to somewhere else
+2. Install AstroDX 2.0 and open the game at least once
+3. Migrate your levels to `com.Reflektone.AstroDX/files/levels` (for iOS, rename `local` to `levels` is enough)
+4. Copy `chart-meta.fufu` into `com.Reflektone.AstroDX/files`
+5. Start the game and your scores *should* be migrated.
 
 ## Levels
 ### Where do I download levels?
