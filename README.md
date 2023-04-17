@@ -26,7 +26,7 @@ full = "https://img.shields.io/badge/testflight-full-red"
 closed = "https://img.shields.io/badge/testflight-closed-yellow"
 open = "https://img.shields.io/badge/testflight-open-green"
  -->
-Join the public [TestFlight](https://testflight.apple.com/join/rACTLjPL) ![AstroDX TestFlight status](https://img.shields.io/badge/testflight-full-red).
+Join the public [TestFlight](https://testflight.apple.com/join/rACTLjPL) ![AstroDX TestFlight status](https://img.shields.io/badge/testflight-open-green).
 
 Due to AstroDX's popularity, the TestFlight is very often full. However, inactive testers
 are periodically cleared, so regularly watch out for open spots!
