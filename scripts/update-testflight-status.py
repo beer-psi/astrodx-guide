@@ -1,8 +1,8 @@
 import re
 from urllib.parse import quote
 
-import requests
 import bs4
+import requests
 
 ASTRODX_TESTFLIGHT = "https://testflight.apple.com/join/rACTLjPL"
 ASTRODX_TESTFLIGHTS = {
@@ -20,9 +20,10 @@ def main():
     with open("README.md", newline="\n") as f:
         readme = f.read()
 
+    statuses = {}
     for name, link in ASTRODX_TESTFLIGHTS.items():
         page = requests.get(
-            link, 
+            link,
             headers={
                 "Accept-Language": "en-us"
             }
@@ -36,17 +37,22 @@ def main():
             status = "closed"
         else:
             status = "open"
-        
+
+        statuses[name] = status
+
         status_url = STATUS_URLS[status].format(name=quote(name))
-        
+
         regex = re.compile(f"!\\[AstroDX {name} TestFlight status\\]\\(https://img.shields.io/badge/.+?\\)")
         readme = regex.sub(f"![AstroDX {name} TestFlight status]({status_url})", readme)
 
     with open("README.md", "w", newline="\n") as f:
         f.write(readme)
-    
+
+    str_status = ", ".join([f"{name}: {value}" for name, value in statuses.items()])
+    print(f"status={str_status}")
+
 
 if __name__ == "__main__":
     main()
 
-    
+
