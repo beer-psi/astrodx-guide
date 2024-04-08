@@ -8,6 +8,7 @@ ASTRODX_TESTFLIGHT = "https://testflight.apple.com/join/rACTLjPL"
 ASTRODX_TESTFLIGHTS = {
     "Group A": "https://testflight.apple.com/join/rACTLjPL",
     "Group B": "https://testflight.apple.com/join/ocj3yptn",
+    "Group C": "https://testflight.apple.com/join/CuMxZE2M",
 }
 STATUS_URLS = {
     "full": "https://img.shields.io/badge/{name}-full-red",
