@@ -26,7 +26,7 @@ full = "https://img.shields.io/badge/${group_name}-full-red"
 closed = "https://img.shields.io/badge/${group_name}-closed-yellow"
 open = "https://img.shields.io/badge/${group_name}-open-green"
  -->
-Join the public TestFlight (click on one of the badges): [![AstroDX Group A TestFlight status](https://img.shields.io/badge/Group%20A-full-red)](https://testflight.apple.com/join/rACTLjPL) [![AstroDX Group B TestFlight status](https://img.shields.io/badge/Group%20B-open-green)](https://testflight.apple.com/join/ocj3yptn) [![AstroDX Group C TestFlight status](https://img.shields.io/badge/Group%20C-full-red)](https://testflight.apple.com/join/CuMxZE2M).
+Join the public TestFlight (click on one of the badges): [![AstroDX Group A TestFlight status](https://img.shields.io/badge/Group%20A-full-red)](https://testflight.apple.com/join/rACTLjPL) [![AstroDX Group B TestFlight status](https://img.shields.io/badge/Group%20B-full-red)](https://testflight.apple.com/join/ocj3yptn) [![AstroDX Group C TestFlight status](https://img.shields.io/badge/Group%20C-full-red)](https://testflight.apple.com/join/CuMxZE2M).
 
 Due to AstroDX's popularity, these groups are very often full. However, inactive testers
 are periodically cleared, so regularly watch out for open spots!
