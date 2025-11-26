@@ -6,9 +6,15 @@ import requests
 
 ASTRODX_TESTFLIGHT = "https://testflight.apple.com/join/rACTLjPL"
 ASTRODX_TESTFLIGHTS = {
-    "Group A": "https://testflight.apple.com/join/rACTLjPL",
-    "Group B": "https://testflight.apple.com/join/ocj3yptn",
-    "Group C": "https://testflight.apple.com/join/CuMxZE2M",
+    "Group A": "https://testflight.apple.com/join/d7rx8Gce",
+    "Group B": "https://testflight.apple.com/join/vZkqCBaW",
+    "Group C": "https://testflight.apple.com/join/6ySgqPyW",
+    "Group D": "https://testflight.apple.com/join/71vbKTKq",
+    "Group E": "https://testflight.apple.com/join/AYFe4Qyh",
+    "Group F": "https://testflight.apple.com/join/yFhEejR9",
+    "Group G": "https://testflight.apple.com/join/d67RmvFG",
+    "Group H": "https://testflight.apple.com/join/taNXJKTM",
+
 }
 STATUS_URLS = {
     "full": "https://img.shields.io/badge/{name}-full-red",
