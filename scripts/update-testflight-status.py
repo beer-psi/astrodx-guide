@@ -56,9 +56,15 @@ def main():
         soup = bs4.BeautifulSoup(page, "html.parser")
         status_text = soup.select(".beta-status span")[0].get_text()
 
-        if "This beta is full." in status_text:
+        if (
+            "This beta is full." in status_text
+            or "此 Beta 版的測試人員名額已滿。" in status_text
+        ):
             status = "full"
-        elif "This beta isn't accepting" in status_text:
+        elif (
+            "This beta isn't accepting" in status_text
+            or "此 Beta 版目前不再接受新的測試人員。" in status_text
+        ):
             status = "closed"
         else:
             status = "open"
