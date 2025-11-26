@@ -1,6 +1,11 @@
+> [!NOTE]
+> AstroDX now has an [official wiki](https://wiki.astrodx.com/en). You should reference that instead.
+> This document will be preserved indefinitely for historical interests, and TestFlight group updates
+> should still work as long as Apple doesn't update the website.
+
 ## Table of Contents
 
-Join the [AstroDX discord](https://discord.gg/6fpETgpvjZ) and ask in #general or the help forum
+Join the [AstroDX Discord](https://discord.gg/6fpETgpvjZ) and ask in #general or the help forum
 if your question isn't listed.
 
 - [Installation](#installation)
