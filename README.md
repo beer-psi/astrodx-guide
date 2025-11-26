@@ -26,7 +26,7 @@ full = "https://img.shields.io/badge/${group_name}-full-red"
 closed = "https://img.shields.io/badge/${group_name}-closed-yellow"
 open = "https://img.shields.io/badge/${group_name}-open-green"
  -->
-Join the public TestFlight (click on one of the badges): [![AstroDX Group A TestFlight status](https://img.shields.io/badge/Group%20A-full-red)](https://testflight.apple.com/join/rACTLjPL) [![AstroDX Group B TestFlight status](https://img.shields.io/badge/Group%20B-full-red)](https://testflight.apple.com/join/ocj3yptn) [![AstroDX Group C TestFlight status](https://img.shields.io/badge/Group%20C-full-red)](https://testflight.apple.com/join/CuMxZE2M).
+Join the public TestFlight (click on one of the badges): <!-- testflight-status --> [![AstroDX Group A (JiNALE) TestFlight status](https://img.shields.io/badge/Group%20A%20%28JiNALE%29-open-green)](https://testflight.apple.com/join/rACTLjPL) [![AstroDX Group B (JiNALE) TestFlight status](https://img.shields.io/badge/Group%20B%20%28JiNALE%29-open-green)](https://testflight.apple.com/join/ocj3yptn) [![AstroDX Group C (JiNALE) TestFlight status](https://img.shields.io/badge/Group%20C%20%28JiNALE%29-open-green)](https://testflight.apple.com/join/CuMxZE2M) [![AstroDX Group D (JiNALE) TestFlight status](https://img.shields.io/badge/Group%20D%20%28JiNALE%29-open-green)](https://testflight.apple.com/join/T6qKfV6f) [![AstroDX Group E (JiNALE) TestFlight status](https://img.shields.io/badge/Group%20E%20%28JiNALE%29-open-green)](https://testflight.apple.com/join/sMm1MCYc) <!-- /testflight-status -->
 
 Due to AstroDX's popularity, these groups are very often full. However, inactive testers
 are periodically cleared, so regularly watch out for open spots!
@@ -104,5 +104,3 @@ and [JSON Genie](https://play.google.com/store/apps/details?id=com.tuyware.jsong
 prevent common mistakes when manually editing.
 
 For detail on what the setting keys mean, check this [gist](https://gist.github.com/beerpiss/653d5a64f4b75c6910f5ddf222daf8b4).
-
-
